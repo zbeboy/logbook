@@ -1,0 +1,195 @@
+[2015-12-03 14:34:32.170] [ERROR] logbook - [Thu Dec 03 2015 14:34:32 GMT+0800 (中国标准时间)]/addModal
+TypeError: Cannot read property 'length' of undefined
+    at d:\Documents\WebstormProjects\logbook\routes\index.js:255:29
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:330:12)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:176:3)
+    at router (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:46:12)
+
+[2015-12-03 14:39:21.639] [ERROR] logbook - [Thu Dec 03 2015 14:39:21 GMT+0800 (中国标准时间)]/addModal
+TypeError: Cannot read property 'length' of undefined
+    at d:\Documents\WebstormProjects\logbook\routes\index.js:255:29
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:330:12)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:176:3)
+    at router (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:46:12)
+
+[2015-12-03 14:39:22.171] [ERROR] logbook - [Thu Dec 03 2015 14:39:22 GMT+0800 (中国标准时间)]/addModal
+TypeError: Cannot read property 'length' of undefined
+    at d:\Documents\WebstormProjects\logbook\routes\index.js:255:29
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:330:12)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:176:3)
+    at router (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:46:12)
+
+[2015-12-03 14:39:22.264] [ERROR] logbook - [Thu Dec 03 2015 14:39:22 GMT+0800 (中国标准时间)]/addModal
+TypeError: Cannot read property 'length' of undefined
+    at d:\Documents\WebstormProjects\logbook\routes\index.js:255:29
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:330:12)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:176:3)
+    at router (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:46:12)
+
+[2015-12-03 14:39:22.318] [ERROR] logbook - [Thu Dec 03 2015 14:39:22 GMT+0800 (中国标准时间)]/addModal
+TypeError: Cannot read property 'length' of undefined
+    at d:\Documents\WebstormProjects\logbook\routes\index.js:255:29
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:330:12)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:176:3)
+    at router (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:46:12)
+
+[2015-12-03 14:39:22.357] [ERROR] logbook - [Thu Dec 03 2015 14:39:22 GMT+0800 (中国标准时间)]/addModal
+TypeError: Cannot read property 'length' of undefined
+    at d:\Documents\WebstormProjects\logbook\routes\index.js:255:29
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:330:12)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:176:3)
+    at router (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:46:12)
+
+[2015-12-03 14:39:22.399] [ERROR] logbook - [Thu Dec 03 2015 14:39:22 GMT+0800 (中国标准时间)]/addModal
+TypeError: Cannot read property 'length' of undefined
+    at d:\Documents\WebstormProjects\logbook\routes\index.js:255:29
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:330:12)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:176:3)
+    at router (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:46:12)
+
+[2015-12-03 14:39:22.452] [ERROR] logbook - [Thu Dec 03 2015 14:39:22 GMT+0800 (中国标准时间)]/addModal
+TypeError: Cannot read property 'length' of undefined
+    at d:\Documents\WebstormProjects\logbook\routes\index.js:255:29
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:330:12)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:176:3)
+    at router (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:46:12)
+
+[2015-12-03 14:39:22.502] [ERROR] logbook - [Thu Dec 03 2015 14:39:22 GMT+0800 (中国标准时间)]/addModal
+TypeError: Cannot read property 'length' of undefined
+    at d:\Documents\WebstormProjects\logbook\routes\index.js:255:29
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:330:12)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:176:3)
+    at router (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:46:12)
+
+[2015-12-03 14:39:22.541] [ERROR] logbook - [Thu Dec 03 2015 14:39:22 GMT+0800 (中国标准时间)]/addModal
+TypeError: Cannot read property 'length' of undefined
+    at d:\Documents\WebstormProjects\logbook\routes\index.js:255:29
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:330:12)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:176:3)
+    at router (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:46:12)
+
+[2015-12-03 14:39:22.578] [ERROR] logbook - [Thu Dec 03 2015 14:39:22 GMT+0800 (中国标准时间)]/addModal
+TypeError: Cannot read property 'length' of undefined
+    at d:\Documents\WebstormProjects\logbook\routes\index.js:255:29
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:330:12)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:176:3)
+    at router (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:46:12)
+
+[2015-12-03 14:40:27.574] [ERROR] logbook - [Thu Dec 03 2015 14:40:27 GMT+0800 (中国标准时间)]/addModal
+TypeError: Cannot read property 'length' of undefined
+    at d:\Documents\WebstormProjects\logbook\routes\index.js:255:29
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:330:12)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:176:3)
+    at router (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:46:12)
+
+[2015-12-03 14:40:32.117] [ERROR] logbook - [Thu Dec 03 2015 14:40:32 GMT+0800 (中国标准时间)]/addModal
+TypeError: Cannot read property 'length' of undefined
+    at d:\Documents\WebstormProjects\logbook\routes\index.js:255:29
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:330:12)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:176:3)
+    at router (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:46:12)
+
+[2015-12-03 14:40:45.804] [ERROR] logbook - [Thu Dec 03 2015 14:40:45 GMT+0800 (中国标准时间)]/addModal
+TypeError: Cannot read property 'length' of undefined
+    at d:\Documents\WebstormProjects\logbook\routes\index.js:255:29
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:330:12)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:176:3)
+    at router (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:46:12)
+
+[2015-12-03 14:42:43.722] [ERROR] logbook - [Thu Dec 03 2015 14:42:43 GMT+0800 (中国标准时间)]/addModal
+TypeError: Cannot read property 'length' of undefined
+    at d:\Documents\WebstormProjects\logbook\routes\index.js:255:29
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\layer.js:95:5)
+    at d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:330:12)
+    at next (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:176:3)
+    at router (d:\Documents\WebstormProjects\logbook\node_modules\express\lib\router\index.js:46:12)
+

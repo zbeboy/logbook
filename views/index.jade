@@ -1,0 +1,80 @@
+extends layout
+
+block content
+  div.site-wrapper
+    div.site-wrapper-inner
+      div.cover-container
+        div.masthead.clearfix
+          div.inner
+            h3.masthead-brand=title
+            nav
+              ul.nav.masthead-nav
+                li
+                  a(href="" data-toggle="modal" data-target="#myModal") 登录
+        div.inner.cover
+          h1.cover-heading=title
+          p.lead 日志系统是一个记录您每日工作，学习，生活点滴的地方。
+        div(class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel")
+          div(class="modal-dialog" role="document")
+            div.modal-content
+              div.modal-header
+                button(type="button" class="close" data-dismiss="modal" aria-label="Close")
+                  span(aria-hidden="true") &times;
+                h4#myModalLabel.modal-title 登录
+              form.form-horizontal
+                div.modal-body
+                  div.form-group
+                    label(class="col-lg-2 control-label" for="loginUserName") 账号
+                    div.col-lg-10
+                      input(class="form-control" id="loginUserName" type="text" placeholder="账号" required="required")
+                  div.form-group
+                    label(class="col-lg-2 control-label" for="loginPassword") 密码
+                    div.col-lg-10
+                      input(class="form-control" id="loginPassword" type="password" placeholder="密码" required = "required")
+                  div.text-center
+                    p#loginError.text-danger
+                div.modal-footer
+                  small.text-muted
+                    em
+                      |还没账号吗?赶紧
+                      a(class="text-info" href="javascript:void(0);" onclick="regist();") 注册
+                      |一个吧.
+                  button(type="button" class="btn btn-default" data-dismiss="modal") 取消
+                  button(type="button" class="btn btn-primary" onclick="submitLogin();") 登录
+        div(class="modal fade" id="registModal" tabindex="-1" role="dialog" aria-labelledby="registModalLabel")
+          div(class="modal-dialog" role="document")
+            div.modal-content
+              div.modal-header
+                button(type="button" class="close" data-dismiss="modal" aria-label="Close")
+                  span(span aria-hidden="true") &times;
+                h4#registModalLabel.modal-title 注册
+              form.form-horizontal
+                div.modal-body
+                  div#checkUserName.form-group
+                    label(class="col-lg-2 control-label" for="registUserName") 账号
+                    div.col-lg-10
+                      input(class="form-control" id="registUserName" name="registUserName" type="text" placeholder="账号" required="required")
+                  div#checkPassword.form-group
+                    label(class="col-lg-2 control-label" for="registPassword") 密码
+                    div.col-lg-10
+                      input(class="form-control" id="registPassword" name="registPassword" type="password" placeholder="密码" required="required")
+                  div#checkRepeatPassword.form-group
+                    label(class="col-lg-2 control-label" for="registOk") 确认密码
+                    div.col-lg-10
+                      input(class="form-control" id="registOk" name="registOk" type="password" placeholder="密码" required="required")
+                  div.text-center
+                      p#registError.text-danger
+                div.modal-footer
+                  button(type="button" class="btn btn-default" data-dismiss="modal") 取消
+                  button(type="button" class="btn btn-primary" onclick="submitRegist();") 注册
+        div.mastfoot
+          div.inner
+            p
+              |Create for log, by
+              a(href="http://863052317.qzone.qq.com/") @zbeboy
+  script(src="javascripts/jquery-1.11.3.min.js")
+  script(src="javascripts/bootstrap.min.js")
+  script(src="javascripts/ripples.min.js")
+  script(src="javascripts/material.min.js")
+  script(src="javascripts/indexscript.js")
+  script(src="javascripts/ie10-viewport-bug-workaround.js")

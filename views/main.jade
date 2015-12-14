@@ -1,0 +1,309 @@
+//
+   Created by lenovo on 2015/11/10.
+extends layout
+
+block content
+   div.site-wrapper
+      div.site-wrapper-inner
+         div.cover-container
+            div.masthead.clearfix
+               div.inner
+                  h3.masthead-brand=title
+                  nav
+                    ul.nav.masthead-nav
+                       li
+                         a(href="javascript:void(0);" id="signin") 签到
+                       li
+                         a(href="/logout") 退出
+            div.inner.cover
+               div(id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="")
+                  div(class="carousel-inner" role="listbox")
+                     div.item.active
+                        div(class="panel-group" id="accordionOne" role="tablist" aria-multiselectable="true")
+                           div.panel.panel-default
+                              div(class="panel-heading" role="tab" id="headingOne")
+                                 h4.panel-title
+                                   a(role="button" data-toggle="collapse" data-parent="#accordionOne" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne") 2015/10/24
+                              div(id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne")
+                                 div.panel-body
+                                    h4
+                                      a(class="text-muted" href="#" data-toggle="modal" data-target="#writeModalOne") 点击填写
+                                      small
+                                        abbr(title="使用模板")
+                                          a(class="text-info" href="javascript:void(0);" data-toggle="modal" data-target="#templateModal") 模板
+                           div.panel.panel-default
+                              div(class="panel-heading" role="tab" id="headingTwo")
+                                 h4.panel-title
+                                   a(class="collapsed" role="button" data-toggle="collapse" data-parent="#accordionOne" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo") 2015/10/23
+                              div(id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo")
+                                 div(class="panel-body" style="color:black;")
+                                    h4
+                                      a(class="text-muted" href="#") 点击填写
+                                      small
+                                        abbr(title="使用模板")
+                                          a(class="text-info" href="#") 模板
+                           div.panel.panel-default
+                              div(class="panel-heading" role="tab" id="headingThree")
+                                 h4.panel-title
+                                   a(class="collapsed" role="button" data-toggle="collapse" data-parent="#accordionOne" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree") 2015/10/22
+                              div(id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree")
+                                 div(class="panel-body" style="color:black;")
+                                    h4
+                                      a(class="text-muted" href="#") 点击填写
+                                      small
+                                        abbr(title="使用模板")
+                                          a(class="text-info" href="#") 模板
+                           div.panel.panel-default
+                              div(class="panel-heading" role="tab" id="headingFour")
+                                 h4.panel-title
+                                   a(class="collapsed" role="button" data-toggle="collapse" data-parent="#accordionOne" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour") 2015/10/21
+                              div(id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour")
+                                 div(class="panel-body" style="color:black;")
+                                    h4
+                                      a(class="text-muted" href="#") 点击填写
+                                      small
+                                        abbr(title="使用模板")
+                                          a(class="text-info" href="#") 模板
+                           div.panel.panel-default
+                              div(class="panel-heading" role="tab" id="headingFive")
+                                 h4.panel-title
+                                   a(class="collapsed" role="button" data-toggle="collapse" data-parent="#accordionOne" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive") 2015/10/20
+                              div(id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive")
+                                 div(class="panel-body" style="color:black;")
+                                    h4
+                                      a(class="text-muted" href="#") 点击填写
+                                      small
+                                        abbr(title="使用模板")
+                                          a(class="text-info" href="#") 模板
+                     div.item
+                        div(class="panel-group" id="accordionTwo" role="tablist" aria-multiselectable="true")
+                           div.panel.panel-default
+                              div(class="panel-heading" role="tab" id="headingSix")
+                                 h4.panel-title
+                                   a(role="button" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseSix" aria-expanded="true" aria-controls="collapseSix") 2015/10/19
+                              div(id="collapseSix" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingSix")
+                                 div(class="panel-body" style="color:black;")
+                                    h4
+                                      a(class="text-muted" href="#") 点击填写
+                                      small
+                                        abbr(title="使用模板")
+                                          a(class="text-info" href="#") 模板
+                           div.panel.panel-default
+                              div(class="panel-heading" role="tab" id="headingSeven")
+                                 h4.panel-title
+                                   a(class="collapsed" role="button" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven") 2015/10/18
+                              div(id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven")
+                                 div(class="panel-body" style="color:black;")
+                                    h4
+                                      a(class="text-muted" href="#") 点击填写
+                                      small
+                                        abbr(title="使用模板")
+                                          a(class="text-info" href="#") 模板
+                           div.panel.panel-default
+                              div(class="panel-heading" role="tab" id="headingEight")
+                                 h4.panel-title
+                                   a(class="collapsed" role="button" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight") 2015/10/17
+                              div(id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight")
+                                 div(class="panel-body" style="color:black;")
+                                    h4
+                                      a(class="text-muted" href="#") 点击填写
+                                      small
+                                        abbr(title="使用模板")
+                                          a(class="text-info" href="#") 模板
+                           div.panel.panel-default
+                              div(class="panel-heading" role="tab" id="headingNine")
+                                 h4.panel-title
+                                   a(class="collapsed" role="button" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine") 2015/10/16
+                              div(id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine")
+                                 div(class="panel-body" style="color:black;")
+                                    h4
+                                      a(class="text-muted" href="#") 点击填写
+                                      small
+                                        abbr(title="使用模板")
+                                          a(class="text-info" href="#") 模板
+                           div.panel.panel-default
+                              div(class="panel-heading" role="tab" id="headingTen")
+                                 h4.panel-title
+                                   a(class="collapsed" role="button" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen") 2015/10/15
+                              div(id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen")
+                                 div(class="panel-body" style="color:black;")
+                                    h4
+                                      a(class="text-muted" href="#") 点击填写
+                                      small
+                                        abbr(title="使用模板")
+                                          a(class="text-info" href="#") 模板
+                  a(class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev")
+                    span(class="glyphicon glyphicon-chevron-left" aria-hidden="true")
+                    span.sr-only Previous
+                  a(class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next")
+                    span(class="glyphicon glyphicon-chevron-right" aria-hidden="true")
+                    span.sr-only Next
+            div(class="modal fade" id="writeModalOne" tabindex="-1" role="dialog" aria-labelledby="writeModalLabel")
+               div(class="modal-dialog" role="document")
+                  div.modal-content
+                     div.modal-header
+                        button(type="button" class="close" data-dismiss="modal" aria-label="Close")
+                          span(aria-hidden="true") &times;
+                        h4#writeModalLabel.modal-title 我的日志
+                     form.form-horizontal
+                        div.modal-body
+                           div.form-group
+                              label(class="col-lg-2 control-label" for="logTitle") 标题
+                              div.col-lg-10
+                                 input(class="form-control" id="logTitle" type="text" placeholder="标题")
+                           div.form-group
+                              label(class="col-lg-2 control-label" for="logSubhead") 副标题
+                              div.col-lg-10
+                                 input(class="form-control" id="logSubhead" type="text" placeholder="副标题")
+                           div.form-group
+                              label(for="logContent" class="col-lg-2 control-label") 段落
+                              div.col-lg-10
+                                 textarea(class="form-control" rows="3" id="logContent")
+                        div.modal-footer
+                           button(type="button" class="btn btn-default" data-dismiss="modal") 取消
+                           button(type="button" class="btn btn-primary") &times;
+            div(class="modal fade" id="templateModal" tabindex="-1" role="dialog" aria-labelledby="templateModalLabel")
+               div(class="modal-dialog" role="document")
+                  div.modal-content
+                     div.modal-header
+                        button(type="button" class="close" data-dismiss="modal" aria-label="Close")
+                          span(aria-hidden="true") &times;
+                        h4#templateModalLabel.modal-title 选择模板
+                     form.form-horizontal
+                        div.modal-body
+                           div.form-group
+                              label.col-lg-2.control-label 请选择
+                              div.col-lg-10
+                                 div.radio.radio-primary
+                                    label(style="color:black;")
+                                      input(type="radio" name="optionsRadios" value="option1" checked="")
+                                      span.circle
+                                      span.check
+                                      |默认模板
+                                    span
+                                      small
+                                        a(href="javascript:void(0);" class="text-info" onclick="compile();") 编辑
+                                        |&nbsp;&nbsp;
+                                      small
+                                        a(href="#" class="text-danger" onclick="deleteTemplate('hidden',this);") 删除
+                                    div(class="alert alert-danger alert-dismissible fade in hidden" role="alert")
+                                       h4 你确定要删除吗?
+                                       p
+                                         button(type="button" class="btn btn-warning" onclick="deleteTemplate('ok',this);") 确定
+                                         button(type="button" class="btn btn-info" onclick="deleteTemplate('cancel',this);") 取消
+                                 div.radio.radio-primary
+                                    label(style="color:black;")
+                                      input(type="radio" name="optionsRadios" value="option2")
+                                      span.circle
+                                      span.check
+                                      |我的模板
+                                    span
+                                      small
+                                        a(href="#" class="text-info") 编辑
+                                        |&nbsp;&nbsp;
+                                      small
+                                        a(href="#" class="text-danger" onclick="deleteTemplate('hidden',this);") 删除
+                                    div(class="alert alert-danger alert-dismissible fade in hidden" role="alert")
+                                       h4 你确定要删除吗?
+                                       p
+                                         button(type="button" class="btn btn-warning" onclick="deleteTemplate('ok',this);") 确定
+                                         button(type="button" class="btn btn-info" onclick="deleteTemplate('cancel',this);") 取消
+                           a(href="javascript:void(0);" class="btn btn-flat btn-info" onclick="add();")
+                             span(class="glyphicon glyphicon-plus")
+                             |新建模板
+                        div.modal-footer
+                           button(type="button" class="btn btn-default" data-dismiss="modal") 取消
+                           button(type="button" class="btn btn-primary") 确定
+            div(class="modal fade" id="compileModal" tabindex="-1" role="dialog" aria-labelledby="compileModalLabel")
+               div(class="modal-dialog" role="document")
+                  div.modal-content
+                     div.modal-header
+                        button(type="button" class="close" data-dismiss="modal" aria-label="Close")
+                          span(aria-hidden="true") &times;
+                        h4#compileModalLabel.modal-title 编辑模板
+                     div.modal-body
+                        div.alert.alert-default.alert-dismissible.fade.in
+                           button(type="button" class="close col-lg-2" data-dismiss="alert" aria-label="Close")
+                             span(aria-hidden="true" style="color:black") &times;
+                           label(class="col-lg-2 control-label" style="color:black" for="compileTitle") 标题
+                           div.col-lg-8
+                             input(class="form-control" id="compileTitle" type="text" placeholder="标题")
+                        div.alert.alert-default.alert-dismissible.fade.in
+                           button(type="button" class="close col-lg-2" data-dismiss="alert" aria-label="Close")
+                             span(aria-hidden="true" style="color:black") &times;
+                           label(class="col-lg-2 control-label" style="color:black" for="compileSubhead") 副标题
+                           div.col-lg-8
+                             input(class="form-control" id="compileSubhead" type="text" placeholder="副标题")
+                        div.alert.alert-default.alert-dismissible.fade.in
+                           button(type="button" class="close col-lg-2" data-dismiss="alert" aria-label="Close")
+                             span(aria-hidden="true" style="color:black") &times;
+                           label(for="compileContent" style="color:black" class="col-lg-2 control-label") 段落
+                           div.col-lg-8
+                             textarea(class="form-control" rows="3" id="compileContent")
+                     div.modal-footer
+                        button(type="button" class="btn btn-default" data-dismiss="modal") 取消
+                        button(type="button" class="btn btn-primary") 保存
+            div(class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="addModalLabel")
+               div(class="modal-dialog" role="document")
+                  div.modal-content
+                     div.modal-header
+                        button(type="button" class="close" data-dismiss="modal" aria-label="Close")
+                          span(aria-hidden="true") &times;
+                        h4#addModalLabel.modal-title 新增模板
+                     form.form-horizontal
+                        div.modal-body
+                           div.form-group#checkModalName
+                              label(for="modalName" class="col-lg-2 control-label") 模板名
+                              div.col-lg-10
+                                 input(type="text" class="form-control" id="modalName" placeholder="模板名")
+                           div
+                               p#addError.text-danger
+                           div(id="templateContent" style="position:relative;height:200px;margin-top:10px;overflow:auto")
+                           div.btn-group
+                              button(type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false")
+                                span.glyphicon.glyphicon-plus
+                                |添加
+                                span.caret
+                              ul.dropdown-menu
+                                 li
+                                   a(href="#" onclick="addContent('title');") 标题
+                                   a(href="#" onclick="addContent('subhead');") 副标题
+                                   a(href="#" onclick="addContent('section');") 段落
+                        div.modal-footer
+                           button(type="button" class="btn btn-default" data-dismiss="modal") 取消
+                           button(type="button" class="btn btn-primary" onclick="saveAddModal();") 保存
+            div(class="modal fade" id="calendarModal" tabindex="-1" role="dialog" aria-labelledby="calendarModalLabel")
+               div(class="modal-dialog" role="document")
+                  div.modal-content
+                     div.modal-header
+                        button(type="button" class="close" data-dismiss="modal" aria-label="Close")
+                          span(aria-hidden="true") &times;
+                        h4#calendarModalLabel.modal-title 签到记录
+                     div.modal-body
+                        div(class="dzscalendar" id="tr2" style="color:black;")
+                           div.events
+                            each sigin in sigindata
+                               div(class="event-tobe" data-date=sigin.showdate)
+                                   div(style="width:240px;")
+                                        h5=sigin.title
+                                        span.label Date
+                                        span=sigin.gmtdate
+                                        br
+                                        span.label Location
+                                        span=sigin.location
+                                        br
+                                        br
+                                        span=sigin.content
+                     div.modal-footer
+                        button(type="button" class="btn btn-default" data-dismiss="modal") 关闭
+            div.mastfoot
+               div.inner
+                  p Create for log, by
+                    a(href="http://863052317.qzone.qq.com/") @zbeboy
+   script(src="javascripts/jquery-1.11.3.min.js")
+   script(src="javascripts/bootstrap.min.js")
+   script(src="javascripts/ripples.min.js")
+   script(src="javascripts/material.min.js")
+   script(src="javascripts/dzscalendar.js" type="text/javascript")
+   script(src="javascripts/mainscript.js" type="text/javascript")
+   script(src="javascripts/ie10-viewport-bug-workaround.js")
